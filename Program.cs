@@ -103,7 +103,7 @@ if (tokenObtained)
 
         //send request
         await AnsiConsole.Status()
-           .StartAsync("Getting Token...", async ctx =>
+           .StartAsync("Sending Order Request...", async ctx =>
            {
                 response =  await apiService.SendOrderRequest(orderRequest);
 
